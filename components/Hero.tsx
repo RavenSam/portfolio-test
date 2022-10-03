@@ -16,7 +16,7 @@ export default function Hero({}: Props) {
       <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
          <BgCircle />
 
-         <SocialIcon network="" className="h-80" />
+         <img src="https://avatars.githubusercontent.com/u/61135465?v=4" className="h-40 rounded-full" />
 
          <div className="z-20">
             <h2 className="text-sm uppercase text-gray-500 pb-3 tracking-[15px]">Software Engineer</h2>

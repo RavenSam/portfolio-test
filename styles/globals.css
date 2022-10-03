@@ -6,4 +6,8 @@
     .btn-hero{
         @apply px-4 lg:px-6 py-3 border border-[#343434] rounded-full cursor-pointer uppercase text-xs tracking-widest text-gray-400 transition-all hover:border-[#557ce6]/40  hover:text-[#557ce6]/60 
     }
+
+    .section-title{
+        @apply absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl
+    }
 }
