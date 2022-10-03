@@ -29,7 +29,7 @@ export default function About({}: Props) {
             className="space-y-4 md:space-y-10 p-4 md:px-10 md:max-w-lg"
          >
             <h3 className="text-3xl md:text-4xl font-semibold">
-               Something about <span className=" underline decoration-blue-600">me.</span>
+               Something about <span className="underline decoration-blue-600">me.</span>
             </h3>
 
             <p className=" text-gray-400">
