@@ -5,14 +5,7 @@ type Props = {}
 export default function About({}: Props) {
    return (
       <div className="relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl mx-auto justify-evenly items-center pt-20">
-         <motion.h2
-            initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ type: "tween" }}
-            className="section-title"
-         >
-            About
-         </motion.h2>
+         <h2 className="section-title">About</h2>
 
          <motion.img
             initial={{ y: 200, opacity: 0, scale: 0.8 }}
